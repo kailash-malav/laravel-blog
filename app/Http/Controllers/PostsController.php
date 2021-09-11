@@ -137,4 +137,8 @@ class PostsController extends Controller
         $post->delete();
         return redirect('/blog')->with('message','Your post has been deleted!');
     }
+
+    public function showNewposts(){
+        // your code here
+    }
 }
